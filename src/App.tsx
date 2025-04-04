@@ -1,10 +1,18 @@
-import React from 'react'
+// src/App.tsx
 
-function App() {
+import React from 'react'
+import { ControlPanel } from './components/ControlPanel'
+import { CanvasStack } from './components/CanvasStack'
+
+const App: React.FC = () => {
   return (
-    <div>
-      <h1>FallSimulator Web</h1>
-      <p>Clicca sul canvas per inserire i punti.</p>
+    <div className="flex h-screen">
+      <div className="w-[435px] min-w-[435px] bg-gray-100 p-4 overflow-y-auto">
+        <ControlPanel />
+      </div>
+      <div className="flex-1 relative">
+        <CanvasStack />
+      </div>
     </div>
   )
 }
