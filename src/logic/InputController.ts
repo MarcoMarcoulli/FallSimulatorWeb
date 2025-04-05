@@ -1,6 +1,6 @@
 // src/logic/InputController.ts
 
-import { point } from '../types/point'
+import { point } from '../types/Point'
 
 export class InputController {
   private static instance: InputController | null = null

@@ -3,4 +3,4 @@ declare module 'cubic-spline'{
       constructor(xs: number[], ys: number[])
       at(x: number): number
     }
-  }
+}

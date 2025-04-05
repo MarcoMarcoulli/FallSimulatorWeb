@@ -1,4 +1,4 @@
-import { point } from '../types/point'
+import { point } from '../types/Point'
 
 export class CurveVisualizer {
   // Utility class: non si istanzia

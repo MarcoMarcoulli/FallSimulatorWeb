@@ -1,4 +1,4 @@
-// src/enums/PlanetIcon.ts
+// src/types/PlanetIcon.ts
 export enum PlanetIcon {
     MOON,
     MARS,

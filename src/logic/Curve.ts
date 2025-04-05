@@ -1,6 +1,6 @@
 // src/logic/Curve.ts
 
-import { point } from '../types/point'
+import { point } from '../types/Point'
 
 export abstract class Curve {
   protected intervalX: number

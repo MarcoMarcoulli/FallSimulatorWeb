@@ -1,6 +1,6 @@
 // src/logic/Mass.ts
 
-import { point } from '../types/point' 
+import { point } from '../types/Point' 
 
 export enum MassIcon {
 	GALILEO,

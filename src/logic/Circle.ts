@@ -1,7 +1,7 @@
 // src/logic/Circle.ts
 
 import { Curve } from './Curve'
-import { point } from '../types/point'
+import { point } from '../types/Point'
 
 export class Circle extends Curve {
   private r: number // raggio della circonferenza

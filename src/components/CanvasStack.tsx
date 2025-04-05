@@ -2,7 +2,7 @@
 
 import React, { useRef, useEffect } from 'react'
 import { InputController } from '../logic/InputController'
-import { point } from '../types/point'
+import { point } from '../types/Point'
 
 export const CanvasStack: React.FC = () => {
   const pointsCanvasRef = useRef<HTMLCanvasElement>(null)

@@ -1,7 +1,7 @@
 // src/logic/Cycloid.ts
 
 import { Curve } from './Curve'
-import { point } from '../types/point'
+import { point } from '../types/Point'
 
 export class NonConvergenceException extends Error {
   constructor(public maxIterations: number) {

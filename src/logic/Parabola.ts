@@ -1,7 +1,7 @@
 // src/logic/Parabola.ts
 
 import { Curve } from './Curve'
-import { point } from '../types/point'
+import { point } from '../types/Point'
 
 export class Parabola extends Curve {
   private a: number // coefficiente della parabola

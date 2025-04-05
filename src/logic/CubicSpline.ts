@@ -1,5 +1,5 @@
 import { Curve } from './Curve'
-import { point } from '../types/point'
+import { point } from '../types/Point'
 import Spline from 'cubic-spline'
 
 export class CubicSpline extends Curve {

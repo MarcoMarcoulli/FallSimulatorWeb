@@ -1,6 +1,6 @@
 // src/logic/SimulationManager.ts
 
-import { point } from '../types/point'
+import { point } from '../types/Point'
 import { Curve } from './Curve'
 import { Mass } from './Mass'
 import { MassArrivalObserver } from './MassArrivalObserver'
